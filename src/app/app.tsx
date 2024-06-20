@@ -1,13 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import React from 'react';
+import { Overlay } from './components/overlay';
+import { Scene } from './components/scene';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="alfinity.me" />
-    </div>
+    <>
+      <Scene />
+      <Overlay />
+    </>
   );
 }
 
