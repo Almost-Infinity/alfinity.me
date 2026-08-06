@@ -1,0 +1,27 @@
+{
+  "name": "alfinity.me",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc -b && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babiakrs/alfinity.me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/babiakrs/alfinity.me/issues"
+  },
+  "homepage": "https://github.com/babiakrs/alfinity.me#readme",
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.0"
+  }
+}
